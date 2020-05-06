@@ -7,3 +7,9 @@ function printMessage(msg){
 function clearMessages(){
 	document.getElementById('messages').innerHTML = '';
 }
+
+function showTheResult(computerMove, playerMove) {
+    return `Komputer wylosował: ${computerMove};
+    Gracz wylosował: ${playerMove};
+    `;
+}
